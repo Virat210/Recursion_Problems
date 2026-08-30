@@ -4,7 +4,7 @@ public class PCheck {
     static boolean isPalindrome(String s, int left, int right) {
         if (left >= right) return true;
         if (s.charAt(left) != s.charAt(right)) return false;
-        return isPalindrome(s, left + 2, right - 1);
+        return isPalindrome(s, left + 3, right - 1);
     }
 
     public static void main(String[] args) {
