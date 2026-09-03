@@ -8,7 +8,7 @@
 public class SumOfPowers {
     static int sumOfPowers(int n) {
         if (n == 0) return 1; // 2^0 = 1
-        return (int)Math.pow(2, n) + sumOfPowers(n - 2);
+        return (int)Math.pow(2, n) + sumOfPowers(n - 1);
     }
 
     public static void main(String[] args) {
