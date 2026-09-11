@@ -5,7 +5,7 @@
 public class SumOfSquares {
     static int sumOfSquares(int n) {
         if (n == 1) return 1;
-        return n * n + sumOfSquares(n - 1);
+        return n * n + sumOfSquares(n - 2);
     }
 
     public static void main(String[] args) {
